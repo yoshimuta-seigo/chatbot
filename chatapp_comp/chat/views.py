@@ -72,7 +72,7 @@ def post(request): # htmlのfromが入力されると、内容がpost関数へ�
             question = "今までの会話をリセットしてください。"
 
 
-    openai.api_key = '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'
+    openai.api_key = ''
 # chatGPTからのレスポンスを代入
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
